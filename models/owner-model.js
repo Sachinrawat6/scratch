@@ -13,10 +13,6 @@ const ownerSchema = new mongoose.Schema({
     default:[],
    },
     isAdmin:Boolean,
-    orders:{
-        type:Array,
-        default:[]
-    },
     picture:String,
     gstin:String
 });
